@@ -42,9 +42,7 @@ A felhasználói felületen a Hozzáférés fülön ossza meg a gépet a szomsz�
 Garázdálkodjon kedvére a a kapott gépen!
 
 ## Template készítése
-Csinálja végig az előző feladatban leírt lépéseket a megosztást mellőzve!
-
-Ezután kattintson floppy lemez ikonra majd mentse el virtuális gépet sablonként!
+Kattintson a floppy lemez ikonra majd mentse el virtuális gépet sablonként!
 A sablon neve tartalmazza az ön nevét!
 A mentés befejézése után ossza meg a sablont a szomszédjával!
 Törölje le a virtuális gépet!
@@ -72,6 +70,7 @@ Ellenőrizze a fájlrendszer jelenlegi méretét, majd csatolja le azt!
 Az átméretezést elfogadó értesítés után, a lemez mérete megváltozik.
 Méretezzük át a fájlrendszert majd csatoljuk fel a /mnt alá és ellenörizzük a méretét.
 ```bash
+    sudo e2fsck -f /dev/vdb
     sudo resize2fs /dev/vdb
     sudo mount /dev/vdb /mnt
 ```

@@ -18,7 +18,7 @@ növelje meg processzorok számát 2-re!
 Mentse el a beállítást majd indítsa el ismét a virtuális gépet!
 Ellenőrizze a processzorok számát ahogy azt nem rég is tette!
 
-## Környezet telepítlés és megosztás
+## Környezet telepítés és megosztás
 Telepítse az nginx webszervert!
 ```bash
     sudo apt update
